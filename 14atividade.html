@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function mouseEmCima(imagem)
+        {
+            imagem.src="lua001.jfif";
+        }
+    function mouseFora(imagem)
+    {
+        imagem.src="lua002.jfif";
+    }    
+    </script>
+   
+    Passe o mouse sobre a imagem:<br><br>
+    <img src="lua002.jfif" onclick="mouseEmCima(this)" width="300" height="300"><br><br>
+    (1)Agora padronize os tamanhos das imagens.<br><br>
+    (2) Mude o evento para que as imagens sejam trocadas ao "clicar" com o mouse.
+    <!-width="300" height="300": dentro da tang img src onclick="mouseEmCima(this)"
+    onMouseOver="mouseEmCima(this)"-->
+</body>
+</html>
